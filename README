@@ -17,3 +17,7 @@ Argument an den SMS-Gateway-Client übergeben werden.
 
 #java -jar sms.jar "492510000099" "Der Text der Kurznachricht, die Versendet werden soll."
 
+
+== Funktionsumfang ==
+Der Funktionsumfang ist (noch) nicht so reichhaltig, wie es die GUI verspricht. Man kann
+die GUI quasi als Roadmap sehen. 
