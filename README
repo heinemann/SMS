@@ -1,0 +1,19 @@
+=SMS-Gateway-Client=
+
+Mit dem SMS-Gateway-Client können Kurznachrichten (SMS) über eine Gatewayschnittstelle an 
+einen SMS-Provider versendet werden. Z.z. ist nur der Provider http://www.sms-expert.de/ 
+möglich. 
+
+== Programm starten==
+Starten Sie die Anwendung mit:
+
+#java -jar sms.jar
+
+Die Jar-Datei befindet sich im Ordner /bin/.
+
+== Programm starten mit Argumenten ==
+Wird der Text in einem anderen Editor erstellt, kann die Nachricht und der Empfänger als 
+Argument an den SMS-Gateway-Client übergeben werden. 
+
+#java -jar sms.jar "492510000099" "Der Text der Kurznachricht, die Versendet werden soll."
+
